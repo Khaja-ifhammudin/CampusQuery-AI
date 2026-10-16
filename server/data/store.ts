@@ -345,10 +345,8 @@ class Store {
         };
       }
 
-      // If no documents exist, seed sample campus knowledge base
-      if (!this.db.documents || this.db.documents.length === 0) {
-        this.seedSampleDocs();
-      }
+      // Ensure all sample campus knowledge documents are present
+      this.ensureSampleDocsPresent();
 
       // Seed initial sample analytics if empty for realistic dashboard display
       if (!this.db.queryLogs || this.db.queryLogs.length === 0) {
@@ -412,12 +410,64 @@ class Store {
     }));
   }
 
+  private ensureSampleDocsPresent() {
+    let changed = false;
+    for (let idx = 0; idx < SAMPLE_DOCS.length; idx++) {
+      const sample = SAMPLE_DOCS[idx];
+      const docId = `doc-campus-${idx + 1}`;
+      const exists = this.db.documents.some(
+        (d) => d.id === docId || d.title.trim().toLowerCase() === sample.title.trim().toLowerCase()
+      );
+      if (!exists) {
+        const now = new Date().toISOString();
+        const chunks = chunkText(docId, sample.title, sample.content);
+        this.db.documents.unshift({
+          ...sample,
+          id: docId,
+          chunks,
+          createdAt: now,
+          updatedAt: now,
+        });
+        changed = true;
+      }
+    }
+    if (changed) {
+      this.save();
+    }
+  }
+
+  private lastMtime = 0;
+
+  public syncFromDisk() {
+    try {
+      if (fs.existsSync(DB_FILE)) {
+        const stats = fs.statSync(DB_FILE);
+        if (stats.mtimeMs > this.lastMtime) {
+          const raw = fs.readFileSync(DB_FILE, 'utf-8');
+          const parsed = JSON.parse(raw);
+          this.db = {
+            documents: parsed.documents || [],
+            conversations: parsed.conversations || [],
+            queryLogs: parsed.queryLogs || [],
+          };
+          this.lastMtime = stats.mtimeMs;
+          this.ensureSampleDocsPresent();
+        }
+      }
+    } catch {
+      // Ignore transient disk read errors
+    }
+  }
+
   public save() {
     try {
       if (!fs.existsSync(DATA_DIR)) {
         fs.mkdirSync(DATA_DIR, { recursive: true });
       }
       fs.writeFileSync(DB_FILE, JSON.stringify(this.db, null, 2), 'utf-8');
+      if (fs.existsSync(DB_FILE)) {
+        this.lastMtime = fs.statSync(DB_FILE).mtimeMs;
+      }
     } catch (err) {
       console.error('[Store] Failed to save DB to disk:', err);
     }
@@ -425,14 +475,17 @@ class Store {
 
   // --- Document Methods ---
   public getDocuments(): KnowledgeDocument[] {
+    this.syncFromDisk();
     return this.db.documents;
   }
 
   public getDocumentById(id: string): KnowledgeDocument | undefined {
+    this.syncFromDisk();
     return this.db.documents.find((d) => d.id === id);
   }
 
   public addDocument(doc: Omit<KnowledgeDocument, 'id' | 'chunks' | 'createdAt' | 'updatedAt'>): KnowledgeDocument {
+    this.syncFromDisk();
     const id = `doc-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
     const now = new Date().toISOString();
     const chunks = chunkText(id, doc.title, doc.content);
@@ -449,6 +502,7 @@ class Store {
   }
 
   public deleteDocument(id: string): boolean {
+    this.syncFromDisk();
     const initialLen = this.db.documents.length;
     this.db.documents = this.db.documents.filter((d) => d.id !== id);
     if (this.db.documents.length !== initialLen) {
@@ -459,6 +513,7 @@ class Store {
   }
 
   public toggleDocumentActive(id: string): KnowledgeDocument | undefined {
+    this.syncFromDisk();
     const doc = this.db.documents.find((d) => d.id === id);
     if (doc) {
       doc.active = !doc.active;
@@ -476,6 +531,7 @@ class Store {
   }
 
   public getAllActiveChunks(): Chunk[] {
+    this.syncFromDisk();
     return this.db.documents
       .filter((d) => d.active)
       .flatMap((d) => d.chunks);

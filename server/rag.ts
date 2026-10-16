@@ -293,6 +293,20 @@ export async function askCampusQuery(
 ): Promise<RAGResult> {
   const startTime = Date.now();
   const category = detectCategory(userQuery);
+
+  // Friendly conversational greeting handler
+  const trimmedLower = userQuery.trim().toLowerCase();
+  const isGreeting = /^(hi|hello|hey|greetings|good morning|good afternoon|good evening|who are you|what can you do)[\s.!?]*$/i.test(trimmedLower);
+  if (isGreeting) {
+    return {
+      answer: `Hello! I am **CampusQuery AI**, your verified university student support assistant. 🎓\n\nI can help you find verified official information on:\n- **Academic Regulations**: Course add/drop deadlines, census dates, and grade forgiveness rules\n- **Financial Aid & Emergency Grants**: Application deadlines, SAP requirements, and relief funds\n- **Housing & Dining**: Quiet hours, room transfers, and lockout policies\n- **Student Health & Counseling**: Free CAPS therapy sessions and crisis helplines\n- **Campus Transit & Parking**: Permit tiers, shuttle routes, and citation appeals\n\nWhat campus policy or question can I help you with?`,
+      citations: [],
+      isFallback: false,
+      category: 'General',
+      responseTimeMs: Date.now() - startTime,
+    };
+  }
+
   const retrieved = retrieveContext(userQuery, 4);
 
   // If no knowledge chunks match even minimally, we trigger strict grounding fallback
@@ -355,20 +369,44 @@ Provide a comprehensive, accurate answer grounded in the passages above. Remembe
       };
     }
 
-    const generatePromise = ai.models.generateContent({
-      model: 'gemini-3.8-flash',
-      contents: userPrompt,
-      config: {
-        systemInstruction,
-        temperature: 0.2, // Low temperature for high factual precision
-      },
-    });
+    const modelCandidates = [
+      process.env.GEMINI_MODEL,
+      'gemini-2.5-flash',
+      'gemini-2.0-flash',
+      'gemini-1.5-flash',
+    ].filter(Boolean) as string[];
 
-    const timeoutPromise = new Promise<never>((_, reject) =>
-      setTimeout(() => reject(new Error('Gemini API timeout after 8000ms')), 8000)
-    );
+    let response: any = null;
+    let lastError: any = null;
 
-    const response = await Promise.race([generatePromise, timeoutPromise]);
+    for (const model of modelCandidates) {
+      try {
+        const generatePromise = ai.models.generateContent({
+          model,
+          contents: userPrompt,
+          config: {
+            systemInstruction,
+            temperature: 0.2, // Low temperature for high factual precision
+          },
+        });
+
+        const timeoutPromise = new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error(`Gemini API timeout (${model}) after 8000ms`)), 8000)
+        );
+
+        response = await Promise.race([generatePromise, timeoutPromise]);
+        if (response && response.text) {
+          break;
+        }
+      } catch (mErr) {
+        lastError = mErr;
+        console.warn(`[RAG] Model ${model} generation issue:`, mErr instanceof Error ? mErr.message : String(mErr));
+      }
+    }
+
+    if (!response || !response.text) {
+      throw lastError || new Error('No valid response from Gemini models');
+    }
 
     const answerText = response.text || '';
     const elapsed = Date.now() - startTime;

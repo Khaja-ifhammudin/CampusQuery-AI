@@ -1,6 +1,69 @@
 {
   "documents": [
     {
+      "title": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+      "category": "Academic",
+      "filename": "academic_regulations_2025_2026.txt",
+      "mimeType": "text/plain",
+      "sizeBytes": 4200,
+      "active": true,
+      "isDemo": true,
+      "content": "CAMPUS UNIVERSITY - UNDERGRADUATE ACADEMIC POLICIES & PROCEDURES (2025-2026)\n\nSection 1: Course Add / Drop and Census Deadlines\nStudents may add or drop classes without academic or financial penalty through 11:59 PM on the 10th instructional day of the fall or spring semester, known as the Official University Census Date. Classes dropped before or on Census Date leave no mark on the official transcript, and 100% of applicable tuition charges for dropped units are credited back to the student account.\nCourses dropped after Census Date through the end of the 10th week of the semester require an instructor signature and will result in an official \"W\" (Withdrawal) notation on the transcript. Withdrawals carry no GPA penalty, but tuition is non-refundable. Students are permitted a maximum lifetime limit of 18 semester withdrawal units across their entire undergraduate career. Withdrawals requested after Week 10 are considered Emergency Withdrawals and require documented catastrophic circumstances approved by the Dean of Undergraduate Studies.\n\nSection 2: Grade Forgiveness & Course Repetition Policy\nUndergraduate students are permitted to repeat up to 16 semester credit units for Grade Forgiveness. When an eligible course is repeated for forgiveness:\n1. Only the newly earned grade is calculated into the cumulative grade point average (GPA).\n2. The initial grade earned remains visible on the official transcript annotated with an \"R\" (Repeated) notation.\n3. Grade forgiveness only applies to courses where the first grade earned was a C-, D+, D, D-, or F.\n4. An individual course may only be repeated twice (maximum of three total attempts). A third attempt requires prior written authorization from the Department Chair and College Dean.\n5. If a student exhausts their 16 units of Grade Forgiveness, subsequent repeated units will be averaged together with the original grade in the GPA calculation.\n\nSection 3: Incomplete (\"I\") Grade Guidelines\nAn Incomplete (\"I\") grade may be assigned by a course instructor only when:\n- The student has successfully completed at least 70% of total coursework with a passing grade of C or better.\n- An unforeseen and documented emergency (medical illness, bereavement, or military obligation) prevents timely completion of final examinations or terminal projects.\n- An Incomplete Contract is formally signed between the instructor and student via the Registrar's Portal before final grades are submitted.\nAll incomplete work must be submitted no later than the end of the subsequent regular semester (Fall or Spring), regardless of enrollment status. If the coursework is not submitted within this timeline, the \"I\" grade automatically converts to a permanent grade of \"F\" (or \"No Credit\").\n\nSection 4: Dean's Honor List Requirements\nTo qualify for the Dean's Honor List in any given Fall or Spring semester, an undergraduate student must:\n- Complete a minimum of 12 letter-graded semester units (courses taken for Pass/No Pass do not count toward this 12-unit minimum).\n- Attain a semester GPA of 3.50 or higher.\n- Have no grades of \"I\", \"F\", or \"NC\" on their semester record.\nDean's Honor citations appear permanently on official academic transcripts.\n\nSection 5: Academic Standing, Probation, and Disqualification\nA student is placed on Academic Probation whenever their cumulative University GPA falls below 2.00. While on Academic Probation, students are limited to enrolling in a maximum of 13 credit units per term and must meet with an Academic Success Counselor prior to registration.\nIf a student on academic probation fails to raise their cumulative GPA to at least 2.00 after two consecutive regular semesters, they become subject to Academic Disqualification. Disqualified students are separated from the university for at least one calendar year before being eligible to petition for academic reinstatement.",
+      "id": "doc-campus-1",
+      "chunks": [
+        {
+          "id": "doc-campus-1-chunk-1",
+          "docId": "doc-campus-1",
+          "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+          "sectionTitle": "General Policy",
+          "text": "CAMPUS UNIVERSITY - UNDERGRADUATE ACADEMIC POLICIES & PROCEDURES (2025-2026)",
+          "charCount": 76
+        },
+        {
+          "id": "doc-campus-1-chunk-2",
+          "docId": "doc-campus-1",
+          "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+          "sectionTitle": "Section 1: Course Add / Drop and Census Deadlines",
+          "text": "Section 1: Course Add / Drop and Census Deadlines\nStudents may add or drop classes without academic or financial penalty through 11:59 PM on the 10th instructional day of the fall or spring semester, known as the Official University Census Date. Classes dropped before or on Census Date leave no mark on the official transcript, and 100% of applicable tuition charges for dropped units are credited back to the student account.\nCourses dropped after Census Date through the end of the 10th week of the semester require an instructor signature and will result in an official \"W\" (Withdrawal) notation on the transcript. Withdrawals carry no GPA penalty, but tuition is non-refundable. Students are permitted a maximum lifetime limit of 18 semester withdrawal units across their entire undergraduate career. Withdrawals requested after Week 10 are considered Emergency Withdrawals and require documented catastrophic circumstances approved by the Dean of Undergraduate Studies.",
+          "charCount": 975
+        },
+        {
+          "id": "doc-campus-1-chunk-3",
+          "docId": "doc-campus-1",
+          "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+          "sectionTitle": "Section 2: Grade Forgiveness & Course Repetition Policy",
+          "text": "Section 2: Grade Forgiveness & Course Repetition Policy\nUndergraduate students are permitted to repeat up to 16 semester credit units for Grade Forgiveness. When an eligible course is repeated for forgiveness:\n1. Only the newly earned grade is calculated into the cumulative grade point average (GPA).\n2. The initial grade earned remains visible on the official transcript annotated with an \"R\" (Repeated) notation.\n3. Grade forgiveness only applies to courses where the first grade earned was a C-, D+, D, D-, or F.\n4. An individual course may only be repeated twice (maximum of three total attempts). A third attempt requires prior written authorization from the Department Chair and College Dean.\n5. If a student exhausts their 16 units of Grade Forgiveness, subsequent repeated units will be averaged together with the original grade in the GPA calculation.",
+          "charCount": 861
+        },
+        {
+          "id": "doc-campus-1-chunk-4",
+          "docId": "doc-campus-1",
+          "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+          "sectionTitle": "Section 3: Incomplete (\"I\") Grade Guidelines",
+          "text": "Section 3: Incomplete (\"I\") Grade Guidelines\nAn Incomplete (\"I\") grade may be assigned by a course instructor only when:\n- The student has successfully completed at least 70% of total coursework with a passing grade of C or better.\n- An unforeseen and documented emergency (medical illness, bereavement, or military obligation) prevents timely completion of final examinations or terminal projects.\n- An Incomplete Contract is formally signed between the instructor and student via the Registrar's Portal before final grades are submitted.\nAll incomplete work must be submitted no later than the end of the subsequent regular semester (Fall or Spring), regardless of enrollment status. If the coursework is not submitted within this timeline, the \"I\" grade automatically converts to a permanent grade of \"F\" (or \"No Credit\").",
+          "charCount": 825
+        },
+        {
+          "id": "doc-campus-1-chunk-5",
+          "docId": "doc-campus-1",
+          "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+          "sectionTitle": "Section 4: Dean's Honor List Requirements",
+          "text": "Section 4: Dean's Honor List Requirements\nTo qualify for the Dean's Honor List in any given Fall or Spring semester, an undergraduate student must:\n- Complete a minimum of 12 letter-graded semester units (courses taken for Pass/No Pass do not count toward this 12-unit minimum).\n- Attain a semester GPA of 3.50 or higher.\n- Have no grades of \"I\", \"F\", or \"NC\" on their semester record.\nDean's Honor citations appear permanently on official academic transcripts.",
+          "charCount": 461
+        },
+        {
+          "id": "doc-campus-1-chunk-6",
+          "docId": "doc-campus-1",
+          "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+          "sectionTitle": "Section 5: Academic Standing, Probation, and Disqualification",
+          "text": "Section 5: Academic Standing, Probation, and Disqualification\nA student is placed on Academic Probation whenever their cumulative University GPA falls below 2.00. While on Academic Probation, students are limited to enrolling in a maximum of 13 credit units per term and must meet with an Academic Success Counselor prior to registration.\nIf a student on academic probation fails to raise their cumulative GPA to at least 2.00 after two consecutive regular semesters, they become subject to Academic Disqualification. Disqualified students are separated from the university for at least one calendar year before being eligible to petition for academic reinstatement.",
+          "charCount": 666
+        }
+      ],
+      "createdAt": "2026-10-16T10:17:23.916Z",
+      "updatedAt": "2026-10-16T10:17:23.916Z"
+    },
+    {
       "title": "03 Submission Readme",
       "category": "Academic",
       "filename": "05_Submission_Readme.txt",
@@ -284,10 +347,193 @@
   ],
   "conversations": [
     {
+      "id": "conv-1792145986063-fm0x",
+      "title": "What are the quiet hours in university residence...",
+      "createdAt": "2026-10-16T10:19:46.063Z",
+      "updatedAt": "2026-10-16T10:20:40.138Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What are the quiet hours in university residence halls on weekends?",
+          "id": "msg-1792145987974-t2yt",
+          "createdAt": "2026-10-16T10:19:47.974Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on **Residential Life, Housing Regulations & Move-in Policies** (*Section 1: Quiet Hours & Courtesy Policy*):\n\nSection 1: Quiet Hours & Courtesy Policy\nTo ensure an environment conducive to studying and sleep, designated Quiet Hours are enforced in all university residence halls and campus apartments:\n- Sunday through Thursday: 10:00 PM to 8:00 AM.\n- Friday and Saturday: 12:00 Midnight to 9:00 AM.\nCourtesy Hours are in effect 24 hours a day, 7 days a week. During Courtesy Hours, residents must promptly reduce noise if requested by a neighbor or Resident Advisor (RA).\nDuring Final Exam Weeks (commencing at 10:00 PM on the Friday before finals begin through the end of the term), continuous 24-Hour Quiet Hours are strictly enforced throughout all residential communities.\n\n*Source: Official Campus Knowledge Base*",
+          "citations": [
+            {
+              "docId": "doc-campus-3",
+              "docTitle": "Residential Life, Housing Regulations & Move-in Policies",
+              "sectionTitle": "Section 1: Quiet Hours & Courtesy Policy",
+              "excerpt": "Section 1: Quiet Hours & Courtesy Policy\nTo ensure an environment conducive to studying and sleep, designated Quiet Hours are enforced in all university residence halls and campus apartments:\n- Sunday through Thursday: 10:00 PM to 8:00 AM.\n..."
+            }
+          ],
+          "isFallback": false,
+          "id": "msg-1792145989513-046v",
+          "createdAt": "2026-10-16T10:19:49.513Z"
+        },
+        {
+          "role": "user",
+          "content": "food",
+          "id": "msg-1792146006367-hqge",
+          "createdAt": "2026-10-16T10:20:06.367Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on **Student Financial Aid & Emergency Relief Grants Handbook** (*Section 3: Dean's Student Emergency Relief Fund (Emergency Grants)*):\n\nSection 3: Dean's Student Emergency Relief Fund (Emergency Grants)\nThe University Student Emergency Relief Fund provides one-time emergency grants of up to $1,500 per academic year to currently enrolled students facing sudden, unforeseen financial hardships that threaten their academic continuity.\nEligible emergency expenses include:\n- Unanticipated medical, dental, or prescription expenses not covered by insurance.\n- Immediate housing instability, risk of eviction, or temporary emergency lodging.\n- Urgent food insecurity or utility shut-off notices.\n- Essential academic technology replacement (such as a broken laptop required for coursework).\nIneligible expenses include: ongoing university tuition, credit card debt, non-essential travel, or discretionary living costs.\nApplications are reviewed within 2 to 3 business days by the Student Life Emergency Committee. Approved grants are disbursed via direct deposit within 48 hours and do not require repayment.\n\n*Source: Official Campus Knowledge Base*",
+          "citations": [
+            {
+              "docId": "doc-campus-2",
+              "docTitle": "Student Financial Aid & Emergency Relief Grants Handbook",
+              "sectionTitle": "Section 3: Dean's Student Emergency Relief Fund (Emergency Grants)",
+              "excerpt": "Section 3: Dean's Student Emergency Relief Fund (Emergency Grants)\nThe University Student Emergency Relief Fund provides one-time emergency grants of up to $1,500 per academic year to currently enrolled students facing sudden, unforeseen fi..."
+            }
+          ],
+          "isFallback": false,
+          "id": "msg-1792146007579-v0at",
+          "createdAt": "2026-10-16T10:20:07.579Z"
+        },
+        {
+          "role": "user",
+          "content": "Games",
+          "id": "msg-1792146040133-cqhq",
+          "createdAt": "2026-10-16T10:20:40.133Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"Games\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792146040138-47y5",
+          "createdAt": "2026-10-16T10:20:40.138Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1792145753139-oiks",
+      "title": "How many times can I repeat a course for grade f...",
+      "createdAt": "2026-10-16T10:15:53.139Z",
+      "updatedAt": "2026-10-16T10:19:29.854Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How many times can I repeat a course for grade forgiveness?",
+          "id": "msg-1792145754508-tfoc",
+          "createdAt": "2026-10-16T10:15:54.508Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"How many times can I repeat a course for grade forgiveness?\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792145754521-88kp",
+          "createdAt": "2026-10-16T10:15:54.521Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "id": "msg-1792145946713-raj4",
+          "createdAt": "2026-10-16T10:19:06.713Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Hello! I am **CampusQuery AI**, your verified university student support assistant. 🎓\n\nI can help you find verified official information on:\n- **Academic Regulations**: Course add/drop deadlines, census dates, and grade forgiveness rules\n- **Financial Aid & Emergency Grants**: Application deadlines, SAP requirements, and relief funds\n- **Housing & Dining**: Quiet hours, room transfers, and lockout policies\n- **Student Health & Counseling**: Free CAPS therapy sessions and crisis helplines\n- **Campus Transit & Parking**: Permit tiers, shuttle routes, and citation appeals\n\nWhat campus policy or question can I help you with?",
+          "citations": [],
+          "isFallback": false,
+          "id": "msg-1792145946717-fgj4",
+          "createdAt": "2026-10-16T10:19:06.717Z"
+        },
+        {
+          "role": "user",
+          "content": "what is",
+          "id": "msg-1792145957077-n090",
+          "createdAt": "2026-10-16T10:19:17.077Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"what is\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792145957082-ny7r",
+          "createdAt": "2026-10-16T10:19:17.082Z"
+        },
+        {
+          "role": "user",
+          "content": "How many times can I repeat a course for grade forgiveness?",
+          "id": "msg-1792145968619-sqg7",
+          "createdAt": "2026-10-16T10:19:28.619Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on **Undergraduate Academic Regulations & Grading Handbook (2025-2026)** (*Section 2: Grade Forgiveness & Course Repetition Policy*):\n\nSection 2: Grade Forgiveness & Course Repetition Policy\nUndergraduate students are permitted to repeat up to 16 semester credit units for Grade Forgiveness. When an eligible course is repeated for forgiveness:\n1. Only the newly earned grade is calculated into the cumulative grade point average (GPA).\n2. The initial grade earned remains visible on the official transcript annotated with an \"R\" (Repeated) notation.\n3. Grade forgiveness only applies to courses where the first grade earned was a C-, D+, D, D-, or F.\n4. An individual course may only be repeated twice (maximum of three total attempts). A third attempt requires prior written authorization from the Department Chair and College Dean.\n5. If a student exhausts their 16 units of Grade Forgiveness, subsequent repeated units will be averaged together with the original grade in the GPA calculation.\n\n*Source: Official Campus Knowledge Base*",
+          "citations": [
+            {
+              "docId": "doc-campus-1",
+              "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+              "sectionTitle": "Section 2: Grade Forgiveness & Course Repetition Policy",
+              "excerpt": "Section 2: Grade Forgiveness & Course Repetition Policy\nUndergraduate students are permitted to repeat up to 16 semester credit units for Grade Forgiveness. When an eligible course is repeated for forgiveness:\n1. Only the newly earned grade..."
+            },
+            {
+              "docId": "doc-campus-1",
+              "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+              "sectionTitle": "Section 3: Incomplete (\"I\") Grade Guidelines",
+              "excerpt": "Section 3: Incomplete (\"I\") Grade Guidelines\nAn Incomplete (\"I\") grade may be assigned by a course instructor only when:\n- The student has successfully completed at least 70% of total coursework with a passing grade of C or better.\n- An unf..."
+            },
+            {
+              "docId": "doc-campus-1",
+              "docTitle": "Undergraduate Academic Regulations & Grading Handbook (2025-2026)",
+              "sectionTitle": "Section 1: Course Add / Drop and Census Deadlines",
+              "excerpt": "Section 1: Course Add / Drop and Census Deadlines\nStudents may add or drop classes without academic or financial penalty through 11:59 PM on the 10th instructional day of the fall or spring semester, known as the Official University Census ..."
+            }
+          ],
+          "isFallback": false,
+          "id": "msg-1792145969854-sqq0",
+          "createdAt": "2026-10-16T10:19:29.854Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1792144114773-g310",
+      "title": "How many times can I repeat a course for grade f...",
+      "createdAt": "2026-10-16T09:48:34.773Z",
+      "updatedAt": "2026-10-16T10:15:03.169Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How many times can I repeat a course for grade forgiveness?",
+          "id": "msg-1792144116608-qcya",
+          "createdAt": "2026-10-16T09:48:36.608Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"How many times can I repeat a course for grade forgiveness?\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792144116620-o3bj",
+          "createdAt": "2026-10-16T09:48:36.620Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "id": "msg-1792145703165-11eo",
+          "createdAt": "2026-10-16T10:15:03.165Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"hi\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792145703168-zcwc",
+          "createdAt": "2026-10-16T10:15:03.169Z"
+        }
+      ]
+    },
+    {
       "id": "conv-1791799171545-c0mc",
       "title": "What is the maximum emergency relief grant avail...",
       "createdAt": "2026-10-12T09:59:31.545Z",
-      "updatedAt": "2026-10-12T09:59:53.580Z",
+      "updatedAt": "2026-10-16T09:48:26.051Z",
       "messages": [
         {
           "role": "user",
@@ -335,6 +581,34 @@
           "isFallback": true,
           "id": "msg-1791799193580-9lkv",
           "createdAt": "2026-10-12T09:59:53.580Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "id": "msg-1792144092361-ueoq",
+          "createdAt": "2026-10-16T09:48:12.361Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"hi\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792144092365-oe2o",
+          "createdAt": "2026-10-16T09:48:12.365Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "id": "msg-1792144106048-mtg7",
+          "createdAt": "2026-10-16T09:48:26.048Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find official information regarding \"hi\" in the current campus knowledge base.\n\nTo ensure you receive accurate and authoritative assistance, please contact the appropriate university department:\n- **Academic & Registration**: Office of the Registrar (registrar@university.edu)\n- **Financial Aid & Grants**: Student Financial Services (finaid@university.edu)\n- **Housing & Dorms**: Department of Residential Life (housing@university.edu)\n- **Health & Crisis**: Student Health Center or CAPS Crisis Line (555) 019-HELP\n\nCampus administrators have flagged this topic to add relevant documentation.",
+          "citations": [],
+          "isFallback": true,
+          "id": "msg-1792144106051-aep1",
+          "createdAt": "2026-10-16T09:48:26.051Z"
         }
       ]
     },
@@ -3471,6 +3745,134 @@
     }
   ],
   "queryLogs": [
+    {
+      "conversationId": "conv-1792145986063-fm0x",
+      "query": "Games",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "General",
+      "responseTimeMs": 1,
+      "citationsCount": 0,
+      "id": "log-1792146040150-4mhc",
+      "timestamp": "2026-10-16T10:20:40.150Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792145986063-fm0x",
+      "query": "food",
+      "answered": true,
+      "category": "General",
+      "responseTimeMs": 1208,
+      "citationsCount": 1,
+      "id": "log-1792146007584-lgnp",
+      "timestamp": "2026-10-16T10:20:07.584Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792145986063-fm0x",
+      "query": "What are the quiet hours in university residence halls on weekends?",
+      "answered": true,
+      "category": "Housing & Dining",
+      "responseTimeMs": 1535,
+      "citationsCount": 1,
+      "id": "log-1792145989517-dcif",
+      "timestamp": "2026-10-16T10:19:49.517Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792145753139-oiks",
+      "query": "How many times can I repeat a course for grade forgiveness?",
+      "answered": true,
+      "category": "Academic",
+      "responseTimeMs": 1230,
+      "citationsCount": 3,
+      "id": "log-1792145969858-xkg5",
+      "timestamp": "2026-10-16T10:19:29.858Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792145753139-oiks",
+      "query": "what is",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "General",
+      "responseTimeMs": 1,
+      "citationsCount": 0,
+      "id": "log-1792145957092-7qt4",
+      "timestamp": "2026-10-16T10:19:17.092Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792145753139-oiks",
+      "query": "hi",
+      "answered": true,
+      "category": "General",
+      "responseTimeMs": 0,
+      "citationsCount": 0,
+      "id": "log-1792145946732-fwy3",
+      "timestamp": "2026-10-16T10:19:06.732Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792145753139-oiks",
+      "query": "How many times can I repeat a course for grade forgiveness?",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "Academic",
+      "responseTimeMs": 8,
+      "citationsCount": 0,
+      "id": "log-1792145754525-lffk",
+      "timestamp": "2026-10-16T10:15:54.525Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792144114773-g310",
+      "query": "hi",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "General",
+      "responseTimeMs": 0,
+      "citationsCount": 0,
+      "id": "log-1792145703180-ienc",
+      "timestamp": "2026-10-16T10:15:03.180Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1792144114773-g310",
+      "query": "How many times can I repeat a course for grade forgiveness?",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "Academic",
+      "responseTimeMs": 8,
+      "citationsCount": 0,
+      "id": "log-1792144116626-1hi3",
+      "timestamp": "2026-10-16T09:48:36.626Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1791799171545-c0mc",
+      "query": "hi",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "General",
+      "responseTimeMs": 0,
+      "citationsCount": 0,
+      "id": "log-1792144106062-42p8",
+      "timestamp": "2026-10-16T09:48:26.062Z",
+      "resolved": false
+    },
+    {
+      "conversationId": "conv-1791799171545-c0mc",
+      "query": "hi",
+      "answered": false,
+      "unansweredReason": "No relevant policy passages found in campus knowledge base",
+      "category": "General",
+      "responseTimeMs": 0,
+      "citationsCount": 0,
+      "id": "log-1792144092382-udi5",
+      "timestamp": "2026-10-16T09:48:12.382Z",
+      "resolved": false
+    },
     {
       "conversationId": "conv-1791799171545-c0mc",
       "query": "is dragons allowed in hall ?",
